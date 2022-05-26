@@ -14,3 +14,15 @@
 ``button.md`` => ``<Button>``  
 
  why not ``<Button.md>``
+
+ And a warning message appears on the page:
+
+ ````
+[Vue warn]: Do not use built-in or reserved HTML elements as component id: button 
+  at <Button> 
+  at <VitePressContent class="content" > 
+  at <Page key=3 > 
+  at <Layout> 
+  at <VitePressApp>
+  
+ ````
